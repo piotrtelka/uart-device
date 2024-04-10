@@ -50,3 +50,7 @@ uart-device exposes single endpoint `GET /device` that returns info about uart-d
   "last_commands": []
 }
 ```
+
+## Swagger:
+
+Interactive Swagger UI is available under `/` and `/docs`
