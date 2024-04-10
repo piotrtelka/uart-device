@@ -6,7 +6,7 @@ import time
 class SocatSerial:
     def __init__(self, device_port: str, client_port: str, baud_rate: int = 9600):
         cmd = [
-            '/usr/bin/socat',
+            'socat',
             '-d',
             '-d',
             'PTY,link=%s,raw,echo=0' % device_port,

@@ -9,4 +9,4 @@ else
     source .env
 fi
 
-uvicorn app.main:app --host "${HOST}" --port "${PORT}"
+python -m uvicorn app.main:app --host "${HOST}" --port "${PORT}"
