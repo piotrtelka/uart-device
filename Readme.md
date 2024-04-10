@@ -7,7 +7,7 @@ It feeds random data to uart-server and emulates logic of all the required comma
 
 1. install socat: `sudo apt-get install socat`
 2. create virtual environment: `python -m venv .venv`
-3. activate virtual environment: `source .venv/bin/acitvate`
+3. activate virtual environment: `source .venv/bin/activate`
 4. install requirements: `python -m pip install -r requirements.txt`
 5. create .env file: `cp .env.example .env`
 
