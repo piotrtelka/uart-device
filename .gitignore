@@ -1,0 +1,7 @@
+test_client_port
+test_device_port
+.venv
+venv
+**/__pycache__
+.idea
+.env
