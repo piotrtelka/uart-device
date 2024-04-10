@@ -54,3 +54,8 @@ uart-device exposes single endpoint `GET /device` that returns info about uart-d
 ## Swagger:
 
 Interactive Swagger UI is available under `/` and `/docs`
+
+
+## Tests:
+
+To run tests use `pytest` in the root directory of the project.
